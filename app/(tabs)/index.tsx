@@ -1,14 +1,14 @@
 import { StyleSheet } from 'react-native';
 
 import EditScreenInfo from '@/components/EditScreenInfo';
-import GalacticCruiserCard from '@/components/GalacticCruiserCard';
+import Card from '@/components/Card';
 import { Text, View } from '@/components/Themed';
 
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
       <View>
-        <GalacticCruiserCard />
+        <Card />
       </View>
     </View>
   );

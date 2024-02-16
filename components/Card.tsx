@@ -1,14 +1,13 @@
-// GalacticCruiserCard.tsx
 import React from 'react';
-import { View, Text, Image, StyleSheet, TouchableOpacity, Pressable } from 'react-native';
+import { View, Text, Image, StyleSheet, Pressable } from 'react-native';
 
-interface GalacticCruiserCardProps {
+interface CardProps {
     // title: string;
     // subtitle: string;
     // price: string;
 }
 
-const GalacticCruiserCard: React.FC<GalacticCruiserCardProps> = (props) => {
+const Card: React.FC<CardProps> = (props) => {
     const title = 'Galactic Cruiser';
     const subtitle = 'Exploration';
     const price = '$150000';
@@ -69,4 +68,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default GalacticCruiserCard;
+export default Card;
